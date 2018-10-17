@@ -1,0 +1,73 @@
+body {
+  background-color:#0ac8f2;
+}
+
+#bt {
+  width:100%;
+  height:100vh;
+  background-image:url("../../assets/img/BG/aa.jpg");
+  background-position:bottom;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+@media (min-width: 768px) {
+  #bt {
+    background-image:url("../../assets/img/BG/bt1.jpg");
+  }
+}
+
+.navbar-light .navbar-brand {
+  background-image:url("../../assets/img/BG/logo.png");
+  background-repeat:no-repeat;
+  width:100px;
+  background-position:center;
+  height:50px;
+  background-size:80%;
+  background-color:#fefefe;
+}
+
+#navcol-1 {
+  font-family:Artifika, serif;
+  min-width:0px;
+}
+
+.gif {
+  width:371px;
+  height:214px;
+}
+
+.text-monospace.text-lowercase.text-center {
+  font-family:'Alegreya SC', serif;
+  font-size:22PX;
+  color:#5b2626;
+  background-color:#ffffff;
+}
+
+.btn.btn-link.btn-block.arrow {
+  color:rgb(93,10,228);
+}
+
+#video {
+  text-align:center;
+}
+
+#video iframe {
+  width:90%;
+  height:400px;
+}
+
+@media (min-width: 768px) {
+  #video iframe {
+    width:900px;
+    height:500px;
+  }
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+}
+
+#icon {
+  text-align:center;
+}
+
